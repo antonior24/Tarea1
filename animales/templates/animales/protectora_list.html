@@ -7,5 +7,9 @@
 </head>
 <body>
     <h1>Protectora</h1>
+
+    {% for protectora in protectora_list %}
+        <p>Nombre: {{ protectora.nombre }} Descripcion- {{ protectora.descripcion }} Fecha- {{ protectora.fecha_creacion }}</p>
+    {% endfor %}
 </body>
 </html>
